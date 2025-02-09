@@ -36,7 +36,7 @@ function Layout(props) {
           <div class="flex gap-4">
             <A href="/" class="nav-link">🏠Naslovnica</A>
             <Show when={session()}>
-              <A href="books" class="nav-link">Novi Projekt</A>
+              <A href="books" class="nav-link">Novi Projekt</A>vvvv
             </Show>
             <Show when={!session()}>
               <A href="signin" class="nav-link">Prijava</A>
